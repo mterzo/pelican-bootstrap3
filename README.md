@@ -26,15 +26,7 @@ Point the `THEME` variable in your `pelicanconf.py` to
 
 `JINJA_EXTENSIONS = ['jinja2.ext.i18n']`
 
-to your Pelican configuration, as this template can be
-translated (see `Translations` below). You also
-need to activate a plugin that initializes the i18n jinja extension. One
-possibility is an up to date version of the
-[`i18n_subsites`](https://github.com/getpelican/pelican-plugins/tree/master/i18n_subsites)
-plugin:
-
-`PLUGIN_PATHS = ['/path/to/git/pelican-plugins']`
-`PLUGINS = ['i18n_subsites']`
+to your Pelican configuration, as this template can be translated (see below).
 
 ## Usage
 
